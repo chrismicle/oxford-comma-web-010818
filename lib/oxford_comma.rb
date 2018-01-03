@@ -1,9 +1,9 @@
 def oxford_comma(array)
-  if array.size >= 4
+  if array.length >= 4
     return array.join()
-  eslif array.size == 2
+  eslif array.length == 2
     return array.join(" and ")
-  eslif array.size == 3
+  eslif array.length == 3
     return array.join(", ",", "," and ")
   else 
     return array.join
