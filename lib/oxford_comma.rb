@@ -1,4 +1,10 @@
 def oxford_comma(array)
-  case array
-    when array.size == 
+  if array.size >= 4
+    return array.join()
+  eslif array.size == 1
+    return array.join
+  eslif array.size == 2
+    return array.join(" and ")
+  eslif array.size == 3
+    return array.join(", ",", "," and ")
 end
